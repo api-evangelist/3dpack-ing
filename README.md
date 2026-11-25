@@ -66,7 +66,7 @@
 
 3dpack-ing provides a web‑based 3D container loading calculator and an HTTP API that lets developers submit shipment descriptions in plain English and receive optimized packing plans with 3D visualizations. The service offers a free preview and paid packs for full results, targeting logistics, e‑commerce and supply‑chain applications.
 
-**Areas:** Company · Logistics · 3D · API · SaaS
+**Areas:** Company · Logistics · 3D · Software-as-a-Service
 
 ## 3dpack-ing on APIs.io
 
@@ -81,11 +81,17 @@ Everything profiled for 3dpack-ing is published on APIs.io rather than in this r
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [3dpack-ing-mcp.yml](https://apis.io/servers/3dpack-ing/3dpack-ing-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [3Dpack Ing Agentic Access](https://apis.io/agentic-access/3dpack-ing/3dpack-ing-agentic-access/)
+- [3dpack-ing Agentic Access](https://apis.io/agentic-access/3dpack-ing/3dpack-ing-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -114,8 +120,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [3Dpack Ing Authentication](https://apis.io/security/3dpack-ing/3dpack-ing-authentication/)
-- [3Dpack Ing Domain Security](https://apis.io/security/3dpack-ing/3dpack-ing-domain-security/)
+- [3dpack-ing Authentication](https://apis.io/security/3dpack-ing/3dpack-ing-authentication/)
+- [3dpack-ing Domain Security](https://apis.io/security/3dpack-ing/3dpack-ing-domain-security/)
 
 ## Where to find this API
 
@@ -130,25 +136,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 48.9** — developing · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 41.0** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 65.0 |
-| Contract governance | 79.1 |
+| Discoverability | 60.0 |
+| Contract quality | 68.1 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 31.0 |
-| Access clarity | 44.7 |
+| Access clarity | 46.8 |
 
-**Agent readiness 53.0** — agent-ready (gated down from agent-native)
+**Agent readiness 55.5** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | verified |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -156,7 +162,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -166,8 +172,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3dpack-ing/](https://apis.io/providers/3dpack-ing/).
 
